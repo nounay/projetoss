@@ -1,0 +1,33 @@
+body {
+
+    background-image: url(https://img.freepik.com/fotos-premium/flor-rosa-fondo-rosas-diseno-vintage-amante-plantas_161568-8076.jpg);
+    background-size:1500px;
+    font-size: 20px;
+
+    
+}
+.painel {
+    width: 700px;
+    height: 700px;
+    background-color: rgba(143, 120, 129, 0.527);
+     border-radius: 10px;
+     /* padding-left: 40px; */
+     margin: auto;
+     text-align: center;
+     color:antiquewhite
+}
+.botao{
+    background-color: antiquewhite;
+    color:rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 15px;
+}
+.titulo{
+    font-family: garamond;
+    color: black
+
+}

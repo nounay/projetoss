@@ -1,0 +1,74 @@
+.painel{
+    border: 5px solid black;
+    box-shadow: 0px 0px 40px rgba(223, 107, 107, 0.884);
+    width: 320px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.223);
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/2211561-empty-background-with-tropical-leaves-frame-gratis-vetor.jpg);
+    background-size: cover;
+    font-size: 17px;
+    color:#ffffff
+}
+.botao{
+    border: 2px solid ;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: black;
+
+
+}
+.bot{
+    border: 2px solid;
+    border-radius: 4px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgba(240, 248, 255, 0.959);
+
+}
+.botao:hover{
+    background-color: rgba(212, 136, 136, 0.986);
+    
+}
+.pokemon{
+    width: 110px;
+
+}
+body{
+    text-align: center;
+    color:rgb(252, 243, 243);
+    background-color: rgba(107, 131, 62, 0.596);
+    
+}
+
+
+.divv{
+    border: 5px solid black;
+    width: 400px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(167, 14, 14, 0.829);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c5069763-9098-4808-b222-a0089bb5786d/dcrrow9-6eb749e4-5308-4985-ac0b-20e432f8425c.png/v1/fill/w_1600,h_2846,q_80,strp/pokedex_phone_wallpaper_by_drboxhead_dcrrow9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mjg0NiIsInBhdGgiOiJcL2ZcL2M1MDY5NzYzLTkwOTgtNDgwOC1iMjIyLWEwMDg5YmI1Nzg2ZFwvZGNycm93OS02ZWI3NDllNC01MzA4LTQ5ODUtYWMwYi0yMGU0MzJmODQyNWMucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.np-kqNxcquZ_PQMMY5BIw44HX2ccec7_5auukla8gKc);
+    background-size: cover;
+
+}
+.icone{
+    width: 17px;
+}
+.p{
+    
+}
+
+
+
+
+ 
+ 

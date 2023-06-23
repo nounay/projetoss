@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depressal</title>
+    <style>
+    body{
+        background-color: rgb(184, 177, 180);
+    }
+    #sim{
+    height: 25px;
+    width:60px;
+    background-color: rgb(245, 133, 198);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: -50px;
+    }
+    #nao{
+       position: absolute;
+       height: 25px;
+       width: 60px;
+       background-color: rgb(245, 133, 198);
+       color: rgb(0, 0, 0);
+       border: 2px solid rgb(12, 10, 10);
+       border-radius: 10px;
+       margin-left: 10px;
+
+    }
+    #sim:hover, #nao:hover{
+        background-color: rgb(42, 4, 78);
+        transition: 2s;
+        color:aliceblue
+
+    }
+    .painel{
+        margin:auto;
+        width:  500px;
+        height: 550px;
+        text-align: center;
+        background-color: rgb(241, 204, 219);
+        padding-top: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px black;
+        font-family: arial;
+        animation: pulsar 5s alternate infinite;
+    }
+        @keyframes pulsar {
+            0%{
+
+            }
+            100% { box-shadow: 5px 5px 20px black;}
+        }
+    
+        oo{
+            font-family: arial;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="painel">
+        <h1>Feliz dia dos Namorados</h1>
+        <h2>Você conhece a Gi?</h2>
+        <img width="200px" src="https://thumbs.dreamstime.com/b/personagem-de-desenho-animado-pato-fofo-voando-com-um-amor-em-forma-bal%C3%A3o-ilustra%C3%A7%C3%A3o-212860483.jpg" alt="">
+
+
+        
+            <p id="oo"><b>A Gigantesca vontade que eu tenho de te beijar kkk</p>
+            <p>Você aceita? </b></p>
+        
+        <a href="https://youtube.com/shorts/vg-K922ACNU?feature=share"><button onclick="parabens()" id="sim"> Sim! </button></a>
+        <button id="nao" onmouseover="fugir()"> Não! </button>
+    </div>
+
+
+
+    <script>
+        function parabens(){
+                alert ("Parabéns,você fez uma ótima escolha 😂👌")
+            }
+        function fugir(){
+        var botaoNao = document.getElementById("nao")
+
+        var larguraJanela = window.innerWidth;
+        var alturaJanela = window.innerHeight;
+
+        var maxX = larguraJanela - botaoNao.offsetWidth;
+        var maxY = alturaJanela - botaoNao.offsetHeight;
+
+        var aleatorioX = Math.floor(Math.random() * maxX);
+        var aleatorioY = Math.floor(Math.random() * maxY);
+
+        botaoNao.style.left = aleatorioX + "px";
+        botaoNao.style.top = aleatorioY + "px";
+        }
+            
+        
+    </script> 
+   
+
+
+</body>
+</html>

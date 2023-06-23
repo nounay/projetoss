@@ -1,0 +1,56 @@
+.fundo{
+    width: 100%;
+    height: calc(600px - 6px);
+    border-bottom: 6px solid orange;
+    overflow: hidden;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url(https://cdn.temporadalivre.com/uploads/editor/pictures/6ad757eca30e/content_Farol_das_Conchas_-_Guia_da_Ilha_do_Mel.jpg
+    )
+}
+.aviao{
+    width: 350px;
+    position: absolute;
+    right: -200px;
+    top: 200px;
+}
+.card{
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 13px black;
+    transition: 2s;
+    height: 440px;
+    
+    
+}
+.card:hover{
+    width: 20rem !important;
+    transition: 2s;
+
+}
+.carousel{
+    box-shadow: 2px 2px 20px black;
+}
+.rodape{
+    color:aliceblue;
+    padding-top: 30px;
+    border-top: 5px solid orange;
+    padding-bottom: 30px;
+}
+a{
+    color: aliceblue !important;
+}
+.divv{
+    border: 5px solid black;
+    width: 400px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.223);
+    font-family: ;
+}

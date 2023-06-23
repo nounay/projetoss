@@ -1,0 +1,36 @@
+.painel{
+    border: 5px solid black;
+    width: 400px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.223);
+    font-family: ;
+
+}
+input {
+border-radius: 10px;
+height: 30px;
+text-align: center;
+}
+
+#resultado{
+    font-size: 50px;
+    color: rgb(36, 97, 126);
+    font-weight: bold;
+}
+body{
+    background-image: linear-gradient(to left,rgba(55, 108, 157, 0.664), rgba(127, 100, 194, 0.935));
+
+}
+.botao{
+    background-color: rgba(87, 80, 182, 0.698);
+    border-radius: 10px;
+    color: black;
+}
+.botao:hover{
+    background-color: rgb(83, 59, 202);
+}

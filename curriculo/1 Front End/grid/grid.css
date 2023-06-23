@@ -1,0 +1,36 @@
+.item{
+    background: rgb(121, 114, 114);
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    border:5px solid black;
+    border-radius: 5px;
+}
+
+.coluna{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr
+
+
+}
+
+.linha{
+    grid-template-rows: 145px 145px 420px;
+}
+
+.titulo {
+    font-family:'Courier New';
+    border: 5px solid black;
+    border-radius: 5px;
+    background: rgb(121, 114, 114);
+}
+body {
+
+    background-color: rgb(161, 159, 159);
+}
+
+.foto{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+   

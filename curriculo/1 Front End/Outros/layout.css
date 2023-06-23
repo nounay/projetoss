@@ -1,0 +1,108 @@
+body, p{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+    color:black;
+    text-align: center;
+
+}
+
+
+ header {
+    grid-area: cabecalho;
+    background-color: rgb(117, 152, 181);
+    border: 10px;
+    border-radius: 10px;
+ }
+ section {
+    grid-area: secao;
+    background-color: rgb(185, 211, 236);
+    border: 10px;
+    border-radius: 10px;
+ }
+ aside {
+    grid-area: barra-lateral;
+    background-color:rgb(154, 192, 250);
+    border: 10px;
+    border-radius: 10px;
+    
+}
+footer {
+    grid-area: rodape;
+    display: flex;
+justify-content: space-evenly;
+border: 10px;
+border-radius: 10px;
+
+}
+
+.parte1, .parte2, .parte3{
+   width: 32%;
+   background-color: rgb(185, 211, 236);
+   border: 10px;
+   border-radius: 10px;
+    
+}
+
+.parte2{
+    width: 50%;
+    margin: 0 2px;
+}
+
+.principal{
+    width:80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 130px 600px 300px;
+    grid-template-areas: 
+    " cabecalho cabecalho"
+    " secao barra-lateral "
+    " rodape rodape ";
+}
+@media(max-width: 992px) {
+    .principal {
+        grid-template-columns: 100%;
+        grid-template-rows: 130px 600px 500px;
+        grid-template-areas:
+         "cabecalho" "secao" "barra-lateral" "rodape";
+    } 
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.parte1, .parte2 , .parte3{
+    margin: 0;
+    width: 50%;
+}
+.parte2{
+    width: 100%;
+    order:  -1;
+    }
+}
+
+@media(max-width: 768px){
+    body{
+        margin: 0 15px;
+    }
+
+    .principal, .parte1, .parte2, .parte3{
+        width:100%;
+    }
+
+    .parte2 {
+        order: initial;
+    }
+
+}
+
+.foto{
+    border: 10px;
+    border-radius:10px ;
+}
+
