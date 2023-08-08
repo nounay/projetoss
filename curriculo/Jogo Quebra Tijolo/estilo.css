@@ -9,8 +9,85 @@
     height: 600px;
     margin: 40px auto;
     box-shadow: 2px 2px 20px black;
-    background-color: rgba(67, 97, 124, 0.507);
+     background-color: rgba(67, 97, 124, 0.507);  
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2kWtfyVwePLuYkmnGiBeTFJNCuOnkoarn9Jt7VVpqq4KN50l-jgpgLpwDJWMuBBqkUK4&usqp=CAU);
+    background-size: cover;
+
 }
 body{
     background-color: rgba(114, 113, 113, 0.644);
 } 
+.gameover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+      display: none; 
+}
+.mensagemGameover{
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+}
+button{
+    background-color:  rgb(201, 54, 54);
+    color:rgb(255, 253, 253) ;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 110px;
+}
+.foto{
+    width: 400px;
+color: rgb(56, 64, 71);
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+}
+.vitoria{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(52, 104, 202);
+    z-index: 9999;
+    display: none;
+}
+.mensagemVitoria{
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 40px;
+    animation: piscar 4s alternate infinite;
+}
+@keyframes piscar{
+    0%{ color:aliceblue }
+    100%{ colums: white}
+    
+}
+.trofeu{
+    width: 150px;
+    margin-left: 100px;
+}
+.score{
+    color:aliceblue;
+    font-family: fantasy;
+    font-size: 30px;
+    margin-left: 340px;
+}
+.botao{
+    background-color: rgb(179, 43, 43);
+    color: aliceblue;
+    border
+}
