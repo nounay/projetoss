@@ -1,0 +1,36 @@
+.painel{
+    border: 10px;
+    border-radius: 10px;
+    background-color: rgba(230, 190, 158, 0.575);
+    margin-left: 10px;
+    text-align: center;
+    height: 430px;
+    width: 600px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/016/475/151/non_2x/vintage-calligraphic-frame-and-border-illustration-free-png.png) ;
+    background-size: 600px;
+     
+}
+.foto{
+
+    width: 160px;
+    height: 160px;
+    
+    
+}
+.texto{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 25px;
+    color: rgb(48, 37, 23);
+    
+}
+.bot{
+    border: 10px blac;
+    border-radius: 10px;
+    background-color: rgb(245, 241, 238);
+    
+
+}
+body{
+
+    text-align: center;
+}
